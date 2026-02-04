@@ -1,10 +1,10 @@
 # File Descriptions:
-- ViralProt.mpfa: Protein sequences of at least 100 codons or more, organized in a fasta format
-- ViralProteome.txt: All translated proteins from the genome
-- GCA_000819615.1_ViralProj14015_genomic copy.fna: Genome of PhiX174
-- PX174genomic.txt: PhiX174 genome with original file header reomved
-- seq.py: Python script for translation
-- S4WYCK2H016_search_strategy.asn: Imported Blastp search
+- [ViralProt.mpfa:](https://github.com/AEnyioko/Translating-PhiX174/blob/main/ViralProt.mpfa) Protein sequences of at least 100 codons or more, organized in a fasta format
+- [ViralProteome.txt:](https://github.com/AEnyioko/Translating-PhiX174/blob/main/ViralProteome.txt) All translated proteins from the genome
+- [GCA_000819615.1_ViralProj14015_genomic copy.fna:](https://github.com/AEnyioko/Translating-PhiX174/blob/main/GCA_000819615.1_ViralProj14015_genomic%20copy.fna) Genome of PhiX174
+- [PX174genomic.txt:](https://github.com/AEnyioko/Translating-PhiX174/blob/main/PX174genomic.txt) PhiX174 genome with original file header reomved
+- [seq.py:](https://github.com/AEnyioko/Translating-PhiX174/blob/main/seq.py) Python script for translation
+- [S4WYCK2H016_search_strategy.asn:](https://github.com/AEnyioko/Translating-PhiX174/blob/main/S4WYCK2H016_search_strategy.asn) Imported Blastp search
 # Assignment Instructions:
 In this assignment, you will need to have access to your computer (the linux environment that we just setup, maybe) to perform the analysis. The objective of this assignment is to identify hidden messages on the genome sequence of ΦX174 virus. This assignment may also require you to use a programming language. (At each step, remember GIYBF.) You can refer to the original paper Links to an external site..
 
