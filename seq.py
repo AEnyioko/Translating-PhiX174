@@ -7,6 +7,7 @@ import os
 from Bio.Seq import Seq
 
 # locate ORF.py relative to this file and load the module
+# https://github.com/AEnyioko/Rosalind/blob/main/BioinfoStronghold/questions/ORF.py
 here = os.path.abspath(os.path.dirname(__file__))
 file_path = os.path.abspath(os.path.join(here, '..', 'Rosalind', 'BioinfoStronghold', 'questions', 'ORF.py'))
 spec = importlib.util.spec_from_file_location('orf_module', file_path)
