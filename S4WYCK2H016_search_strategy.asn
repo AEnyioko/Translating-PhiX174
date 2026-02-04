@@ -1,0 +1,929 @@
+Blast4-request ::= {
+  body queue-search {
+    program "blastp",
+    service "plain",
+    queries bioseq-set {
+      seq-set {
+        seq {
+          id {
+            local str "Query_3670269"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_1"
+                }
+              }
+            },
+            title "SEQUENCE_1"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 152,
+            seq-data ncbieaa "MSQVTEQSVRFQTALASIKLIQASAVLDLTEDDFDFLTSNKVWIATDR
+SRARRCVEACVYGTLDFVGYPRFPAPVEFIAAVIAYYVHPVNIQTACLIMEGAEFTENIINGVERPVKAAELFAFTLR
+VRAGNTDVLTDAEENVRQKLRAEGVM"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670270"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_2"
+                }
+              }
+            },
+            title "SEQUENCE_2"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 427,
+            seq-data ncbieaa "MSNIQTGAERMPHDLSHLGFLAGQIGRLITISTTPVIAGDSFEMDAVG
+ALRLSPLRRGLAIDSTVDIFTFYVPHRHVYGEQWIKFMKDGVNATPLPTVNTTGYIDHAAFLGTINPDTNKIPKHLFQ
+GYLNIYNNYFKAPWMPDRTEANPNELNQDDARYGFRCCHLKNIWTAPLPPETELSRQMTTSTTSIDIMGLQAAYANLH
+TDQERDYFMQRYHDVISSFGGKTSYDADNRPLLVMRSNLWASGYDVDGTDQTSLGQFSGRVQQTYKHSVPRFFVPEHG
+TMFTLALVRFPPTATKEIQYLNAKGALTYTDIAGDPVLYGNLPPREISMKDVFRSGDSSKKFKIAEGQWYRYAPSYVS
+PAYHLLEGFPFIQEPPSGDLQERVLIRHHDYDQCFQSVQLLQWNSQVKFNVTVYRNLPTTRDSIMTS"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670271"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_3"
+                }
+              }
+            },
+            title "SEQUENCE_3"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 417,
+            seq-data ncbieaa "MPHDLSHLGFLAGQIGRLITISTTPVIAGDSFEMDAVGALRLSPLRRG
+LAIDSTVDIFTFYVPHRHVYGEQWIKFMKDGVNATPLPTVNTTGYIDHAAFLGTINPDTNKIPKHLFQGYLNIYNNYF
+KAPWMPDRTEANPNELNQDDARYGFRCCHLKNIWTAPLPPETELSRQMTTSTTSIDIMGLQAAYANLHTDQERDYFMQ
+RYHDVISSFGGKTSYDADNRPLLVMRSNLWASGYDVDGTDQTSLGQFSGRVQQTYKHSVPRFFVPEHGTMFTLALVRF
+PPTATKEIQYLNAKGALTYTDIAGDPVLYGNLPPREISMKDVFRSGDSSKKFKIAEGQWYRYAPSYVSPAYHLLEGFP
+FIQEPPSGDLQERVLIRHHDYDQCFQSVQLLQWNSQVKFNVTVYRNLPTTRDSIMTS"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670272"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_4"
+                }
+              }
+            },
+            title "SEQUENCE_4"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 384,
+            seq-data ncbieaa "MDAVGALRLSPLRRGLAIDSTVDIFTFYVPHRHVYGEQWIKFMKDGVN
+ATPLPTVNTTGYIDHAAFLGTINPDTNKIPKHLFQGYLNIYNNYFKAPWMPDRTEANPNELNQDDARYGFRCCHLKNI
+WTAPLPPETELSRQMTTSTTSIDIMGLQAAYANLHTDQERDYFMQRYHDVISSFGGKTSYDADNRPLLVMRSNLWASG
+YDVDGTDQTSLGQFSGRVQQTYKHSVPRFFVPEHGTMFTLALVRFPPTATKEIQYLNAKGALTYTDIAGDPVLYGNLP
+PREISMKDVFRSGDSSKKFKIAEGQWYRYAPSYVSPAYHLLEGFPFIQEPPSGDLQERVLIRHHDYDQCFQSVQLLQW
+NSQVKFNVTVYRNLPTTRDSIMTS"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670273"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_5"
+                }
+              }
+            },
+            title "SEQUENCE_5"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 342,
+            seq-data ncbieaa "MKDGVNATPLPTVNTTGYIDHAAFLGTINPDTNKIPKHLFQGYLNIYN
+NYFKAPWMPDRTEANPNELNQDDARYGFRCCHLKNIWTAPLPPETELSRQMTTSTTSIDIMGLQAAYANLHTDQERDY
+FMQRYHDVISSFGGKTSYDADNRPLLVMRSNLWASGYDVDGTDQTSLGQFSGRVQQTYKHSVPRFFVPEHGTMFTLAL
+VRFPPTATKEIQYLNAKGALTYTDIAGDPVLYGNLPPREISMKDVFRSGDSSKKFKIAEGQWYRYAPSYVSPAYHLLE
+GFPFIQEPPSGDLQERVLIRHHDYDQCFQSVQLLQWNSQVKFNVTVYRNLPTTRDSIMTS"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670274"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_6"
+                }
+              }
+            },
+            title "SEQUENCE_6"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 287,
+            seq-data ncbieaa "MPDRTEANPNELNQDDARYGFRCCHLKNIWTAPLPPETELSRQMTTST
+TSIDIMGLQAAYANLHTDQERDYFMQRYHDVISSFGGKTSYDADNRPLLVMRSNLWASGYDVDGTDQTSLGQFSGRVQ
+QTYKHSVPRFFVPEHGTMFTLALVRFPPTATKEIQYLNAKGALTYTDIAGDPVLYGNLPPREISMKDVFRSGDSSKKF
+KIAEGQWYRYAPSYVSPAYHLLEGFPFIQEPPSGDLQERVLIRHHDYDQCFQSVQLLQWNSQVKFNVTVYRNLPTTRD
+SIMTS"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670275"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_7"
+                }
+              }
+            },
+            title "SEQUENCE_7"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 244,
+            seq-data ncbieaa "MTTSTTSIDIMGLQAAYANLHTDQERDYFMQRYHDVISSFGGKTSYDA
+DNRPLLVMRSNLWASGYDVDGTDQTSLGQFSGRVQQTYKHSVPRFFVPEHGTMFTLALVRFPPTATKEIQYLNAKGAL
+TYTDIAGDPVLYGNLPPREISMKDVFRSGDSSKKFKIAEGQWYRYAPSYVSPAYHLLEGFPFIQEPPSGDLQERVLIR
+HHDYDQCFQSVQLLQWNSQVKFNVTVYRNLPTTRDSIMTS"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670276"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_8"
+                }
+              }
+            },
+            title "SEQUENCE_8"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 234,
+            seq-data ncbieaa "MGLQAAYANLHTDQERDYFMQRYHDVISSFGGKTSYDADNRPLLVMRS
+NLWASGYDVDGTDQTSLGQFSGRVQQTYKHSVPRFFVPEHGTMFTLALVRFPPTATKEIQYLNAKGALTYTDIAGDPV
+LYGNLPPREISMKDVFRSGDSSKKFKIAEGQWYRYAPSYVSPAYHLLEGFPFIQEPPSGDLQERVLIRHHDYDQCFQS
+VQLLQWNSQVKFNVTVYRNLPTTRDSIMTS"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670277"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_9"
+                }
+              }
+            },
+            title "SEQUENCE_9"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 215,
+            seq-data ncbieaa "MQRYHDVISSFGGKTSYDADNRPLLVMRSNLWASGYDVDGTDQTSLGQ
+FSGRVQQTYKHSVPRFFVPEHGTMFTLALVRFPPTATKEIQYLNAKGALTYTDIAGDPVLYGNLPPREISMKDVFRSG
+DSSKKFKIAEGQWYRYAPSYVSPAYHLLEGFPFIQEPPSGDLQERVLIRHHDYDQCFQSVQLLQWNSQVKFNVTVYRN
+LPTTRDSIMTS"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670278"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_10"
+                }
+              }
+            },
+            title "SEQUENCE_10"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 189,
+            seq-data ncbieaa "MRSNLWASGYDVDGTDQTSLGQFSGRVQQTYKHSVPRFFVPEHGTMFT
+LALVRFPPTATKEIQYLNAKGALTYTDIAGDPVLYGNLPPREISMKDVFRSGDSSKKFKIAEGQWYRYAPSYVSPAYH
+LLEGFPFIQEPPSGDLQERVLIRHHDYDQCFQSVQLLQWNSQVKFNVTVYRNLPTTRDSIMTS"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670279"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_11"
+                }
+              }
+            },
+            title "SEQUENCE_11"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 144,
+            seq-data ncbieaa "MFTLALVRFPPTATKEIQYLNAKGALTYTDIAGDPVLYGNLPPREISM
+KDVFRSGDSSKKFKIAEGQWYRYAPSYVSPAYHLLEGFPFIQEPPSGDLQERVLIRHHDYDQCFQSVQLLQWNSQVKF
+NVTVYRNLPTTRDSIMTS"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670280"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_12"
+                }
+              }
+            },
+            title "SEQUENCE_12"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 175,
+            seq-data ncbieaa "MFQTFISRHNSNFFSDKLVLTSVTPASSAPVLQTPKATSSTLYFDSLT
+VNAGNGGFLHCIQMDTSVNAANQVVSVGADIAFDADPKFFACLVRFESSSVPTTLPTAYDVYPLNGRHDGGYYTVKDC
+VTIDVLPRTPGNNVYVGFMVWSNFTATKCRGLVSLNQVIKEIICLQPLK"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670281"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_13"
+                }
+              }
+            },
+            title "SEQUENCE_13"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 114,
+            seq-data ncbieaa "MDTSVNAANQVVSVGADIAFDADPKFFACLVRFESSSVPTTLPTAYDV
+YPLNGRHDGGYYTVKDCVTIDVLPRTPGNNVYVGFMVWSNFTATKCRGLVSLNQVIKEIICLQPLK"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670282"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_14"
+                }
+              }
+            },
+            title "SEQUENCE_14"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 328,
+            seq-data ncbieaa "MFGAIAGGIASALAGGAMSKLFGGGQKAASGGIQGDVLATDNNTVGMG
+DAGIKSAIQGSNVPNPDEAAPSFVSGAMAKAGKGLLEGTLQAGTSAVSDKLLDLVGLGGKSAADKGKDTRDYLAAAFP
+ELNAWERAGADASSAGMVDAGFENQKELTKMQLDNQKEIAEMQNETQKEIAGIQSATSRQNTKDQVYAQNEMLAYQQK
+ESTARVASIMENTNLSKQQQVSEIMRQMLTQAQTAGQYFTNDQIKEMTRKVSAEVDLVHQQTQNQRYGSSHIGATAKD
+ISNVVTDAASGVVDIFHGIDKAVADTWNNFWKDGKADGIGSNLSRK"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670283"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_15"
+                }
+              }
+            },
+            title "SEQUENCE_15"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 311,
+            seq-data ncbieaa "MSKLFGGGQKAASGGIQGDVLATDNNTVGMGDAGIKSAIQGSNVPNPD
+EAAPSFVSGAMAKAGKGLLEGTLQAGTSAVSDKLLDLVGLGGKSAADKGKDTRDYLAAAFPELNAWERAGADASSAGM
+VDAGFENQKELTKMQLDNQKEIAEMQNETQKEIAGIQSATSRQNTKDQVYAQNEMLAYQQKESTARVASIMENTNLSK
+QQQVSEIMRQMLTQAQTAGQYFTNDQIKEMTRKVSAEVDLVHQQTQNQRYGSSHIGATAKDISNVVTDAASGVVDIFH
+GIDKAVADTWNNFWKDGKADGIGSNLSRK"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670284"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_16"
+                }
+              }
+            },
+            title "SEQUENCE_16"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 282,
+            seq-data ncbieaa "MGDAGIKSAIQGSNVPNPDEAAPSFVSGAMAKAGKGLLEGTLQAGTSA
+VSDKLLDLVGLGGKSAADKGKDTRDYLAAAFPELNAWERAGADASSAGMVDAGFENQKELTKMQLDNQKEIAEMQNET
+QKEIAGIQSATSRQNTKDQVYAQNEMLAYQQKESTARVASIMENTNLSKQQQVSEIMRQMLTQAQTAGQYFTNDQIKE
+MTRKVSAEVDLVHQQTQNQRYGSSHIGATAKDISNVVTDAASGVVDIFHGIDKAVADTWNNFWKDGKADGIGSNLSRK"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670285"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_17"
+                }
+              }
+            },
+            title "SEQUENCE_17"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 202,
+            seq-data ncbieaa "MLVLNLPFKALMFLTLMRPPLVLFLVLWLKLVKDFLKVRCRLALLPFL
+ISCLIWLDLVASLPLIKERILVIILLLHFLSLMLGSVLVLMLPLLVWLTPDLRIKKSLLKCNWTIRKRLPRCKMRLKK
+RLLAFSRRLHARIRKTRYMHKMRCLLINRRSLLLALRLLWKTPIFPSNSRFPRLCAKCLLKLKRLVSILPMTKSKK"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670286"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_18"
+                }
+              }
+            },
+            title "SEQUENCE_18"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 191,
+            seq-data ncbieaa "MFLTLMRPPLVLFLVLWLKLVKDFLKVRCRLALLPFLISCLIWLDLVA
+SLPLIKERILVIILLLHFLSLMLGSVLVLMLPLLVWLTPDLRIKKSLLKCNWTIRKRLPRCKMRLKKRLLAFSRRLHA
+RIRKTRYMHKMRCLLINRRSLLLALRLLWKTPIFPSNSRFPRLCAKCLLKLKRLVSILPMTKSKK"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670287"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_19"
+                }
+              }
+            },
+            title "SEQUENCE_19"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 186,
+            seq-data ncbieaa "MRPPLVLFLVLWLKLVKDFLKVRCRLALLPFLISCLIWLDLVASLPLI
+KERILVIILLLHFLSLMLGSVLVLMLPLLVWLTPDLRIKKSLLKCNWTIRKRLPRCKMRLKKRLLAFSRRLHARIRKT
+RYMHKMRCLLINRRSLLLALRLLWKTPIFPSNSRFPRLCAKCLLKLKRLVSILPMTKSKK"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670288"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_20"
+                }
+              }
+            },
+            title "SEQUENCE_20"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 253,
+            seq-data ncbieaa "MAKAGKGLLEGTLQAGTSAVSDKLLDLVGLGGKSAADKGKDTRDYLAA
+AFPELNAWERAGADASSAGMVDAGFENQKELTKMQLDNQKEIAEMQNETQKEIAGIQSATSRQNTKDQVYAQNEMLAY
+QQKESTARVASIMENTNLSKQQQVSEIMRQMLTQAQTAGQYFTNDQIKEMTRKVSAEVDLVHQQTQNQRYGSSHIGAT
+AKDISNVVTDAASGVVDIFHGIDKAVADTWNNFWKDGKADGIGSNLSRK"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670289"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_21"
+                }
+              }
+            },
+            title "SEQUENCE_21"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 122,
+            seq-data ncbieaa "MLGSVLVLMLPLLVWLTPDLRIKKSLLKCNWTIRKRLPRCKMRLKKRL
+LAFSRRLHARIRKTRYMHKMRCLLINRRSLLLALRLLWKTPIFPSNSRFPRLCAKCLLKLKRLVSILPMTKSKK"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670290"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_22"
+                }
+              }
+            },
+            title "SEQUENCE_22"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 114,
+            seq-data ncbieaa "MLPLLVWLTPDLRIKKSLLKCNWTIRKRLPRCKMRLKKRLLAFSRRLH
+ARIRKTRYMHKMRCLLINRRSLLLALRLLWKTPIFPSNSRFPRLCAKCLLKLKRLVSILPMTKSKK"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670291"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_23"
+                }
+              }
+            },
+            title "SEQUENCE_23"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 186,
+            seq-data ncbieaa "MVDAGFENQKELTKMQLDNQKEIAEMQNETQKEIAGIQSATSRQNTKD
+QVYAQNEMLAYQQKESTARVASIMENTNLSKQQQVSEIMRQMLTQAQTAGQYFTNDQIKEMTRKVSAEVDLVHQQTQN
+QRYGSSHIGATAKDISNVVTDAASGVVDIFHGIDKAVADTWNNFWKDGKADGIGSNLSRK"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670292"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_24"
+                }
+              }
+            },
+            title "SEQUENCE_24"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 172,
+            seq-data ncbieaa "MQLDNQKEIAEMQNETQKEIAGIQSATSRQNTKDQVYAQNEMLAYQQK
+ESTARVASIMENTNLSKQQQVSEIMRQMLTQAQTAGQYFTNDQIKEMTRKVSAEVDLVHQQTQNQRYGSSHIGATAKD
+ISNVVTDAASGVVDIFHGIDKAVADTWNNFWKDGKADGIGSNLSRK"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670293"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_25"
+                }
+              }
+            },
+            title "SEQUENCE_25"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 161,
+            seq-data ncbieaa "MQNETQKEIAGIQSATSRQNTKDQVYAQNEMLAYQQKESTARVASIME
+NTNLSKQQQVSEIMRQMLTQAQTAGQYFTNDQIKEMTRKVSAEVDLVHQQTQNQRYGSSHIGATAKDISNVVTDAASG
+VVDIFHGIDKAVADTWNNFWKDGKADGIGSNLSRK"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670294"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_26"
+                }
+              }
+            },
+            title "SEQUENCE_26"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 131,
+            seq-data ncbieaa "MLAYQQKESTARVASIMENTNLSKQQQVSEIMRQMLTQAQTAGQYFTN
+DQIKEMTRKVSAEVDLVHQQTQNQRYGSSHIGATAKDISNVVTDAASGVVDIFHGIDKAVADTWNNFWKDGKADGIGS
+NLSRK"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670295"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_27"
+                }
+              }
+            },
+            title "SEQUENCE_27"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 115,
+            seq-data ncbieaa "MENTNLSKQQQVSEIMRQMLTQAQTAGQYFTNDQIKEMTRKVSAEVDL
+VHQQTQNQRYGSSHIGATAKDISNVVTDAASGVVDIFHGIDKAVADTWNNFWKDGKADGIGSNLSRK"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670296"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_28"
+                }
+              }
+            },
+            title "SEQUENCE_28"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 100,
+            seq-data ncbieaa "MRQMLTQAQTAGQYFTNDQIKEMTRKVSAEVDLVHQQTQNQRYGSSHI
+GATAKDISNVVTDAASGVVDIFHGIDKAVADTWNNFWKDGKADGIGSNLSRK"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670297"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_29"
+                }
+              }
+            },
+            title "SEQUENCE_29"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 105,
+            seq-data ncbieaa "MFSCLQILEAFLWFVLITLLNVTLIILTLSVSRLLNLLLRLVAFLLFL
+NPQCLASISRWITASSSWKRFCLFVCRALSSIMVICMLTAIRLLLTFVMSLYLLLRS"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670298"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_30"
+                }
+              }
+            },
+            title "SEQUENCE_30"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 131,
+            seq-data ncbieaa "MVANKYAFLQITRRRFLNEWEAFKKVISRRNIRRRITIPLTLSNLKLL
+RRITRTENILHRNFTRRQVAIQNRVASNIGISQSTFSVKVLNLFSRSRRKTNKRKSKHSAMLRNKETRHRMFIGLLNT
+TRKLA"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670299"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_31"
+                }
+              }
+            },
+            title "SEQUENCE_31"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 185,
+            seq-data ncbieaa "MVTLHEVITFLVSMQISISSLQTHNVNRCGRSRHLARKLSLRRKRSSP
+NVFEMAATETITSIILIKLIRVSLGTVRHPRRFKIVVIDIQITLKQMLRDFIGIRVNRAKKSGMVNITSSVNSRERSG
+INTILHELNPLFTINVTMRDIKSKNVYSRVNSKATTQWRKTESANGVHLEGVASDNRSS"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670300"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_32"
+                }
+              }
+            },
+            title "SEQUENCE_32"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 172,
+            seq-data ncbieaa "MQISISSLQTHNVNRCGRSRHLARKLSLRRKRSSPNVFEMAATETITS
+IILIKLIRVSLGTVRHPRRFKIVVIDIQITLKQMLRDFIGIRVNRAKKSGMVNITSSVNSRERSGINTILHELNPLFT
+INVTMRDIKSKNVYSRVNSKATTQWRKTESANGVHLEGVASDNRSS"
+          }
+        },
+        seq {
+          id {
+            local str "Query_3670301"
+          },
+          descr {
+            user {
+              type str "CFastaReader",
+              data {
+                {
+                  label str "DefLine",
+                  data str ">SEQUENCE_33"
+                }
+              }
+            },
+            title "SEQUENCE_33"
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 133,
+            seq-data ncbieaa "MAATETITSIILIKLIRVSLGTVRHPRRFKIVVIDIQITLKQMLRDFI
+GIRVNRAKKSGMVNITSSVNSRERSGINTILHELNPLFTINVTMRDIKSKNVYSRVNSKATTQWRKTESANGVHLEGV
+ASDNRSS"
+          }
+        }
+      }
+    },
+    subject database "nr_cluster_seq",
+    algorithm-options {
+      {
+        name "EvalueThreshold",
+        value cutoff e-value { 5, 10, -2 }
+      },
+      {
+        name "WordSize",
+        value integer 5
+      },
+      {
+        name "WordThreshold",
+        value integer 20
+      },
+      {
+        name "UngappedMode",
+        value boolean FALSE
+      },
+      {
+        name "PercentIdentity",
+        value real { 0, 10, 0 }
+      },
+      {
+        name "HitlistSize",
+        value integer 100
+      },
+      {
+        name "EffectiveSearchSpace",
+        value big-integer 0
+      },
+      {
+        name "DbLength",
+        value big-integer 0
+      },
+      {
+        name "WindowSize",
+        value integer 40
+      },
+      {
+        name "SegFiltering",
+        value boolean FALSE
+      },
+      {
+        name "MaskAtHash",
+        value boolean FALSE
+      },
+      {
+        name "MatrixName",
+        value string "BLOSUM62"
+      },
+      {
+        name "GapOpeningCost",
+        value integer 11
+      },
+      {
+        name "GapExtensionCost",
+        value integer 1
+      },
+      {
+        name "CompositionBasedStats",
+        value integer 2
+      },
+      {
+        name "SmithWatermanMode",
+        value boolean FALSE
+      }
+    },
+    format-options {
+      {
+        name "Web_JobTitle",
+        value string "SEQUENCE_1"
+      },
+      {
+        name "Web_ShortQueryAdjust",
+        value boolean TRUE
+      }
+    }
+  }
+}
+
